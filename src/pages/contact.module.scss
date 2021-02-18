@@ -1,0 +1,16 @@
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  .facebook {
+    color: #4267b2;
+  }
+
+  .instagram {
+    color: #c13584;
+  }
+
+  .twitter {
+    color: #1da1f2;
+  }
+}

@@ -8,39 +8,39 @@ const Aside = () => {
     <div className={AsideStyles.aside}>
       <h2 className={AsideStyles.title}>Welcome to my blog!</h2>
       <p className={AsideStyles.text}>
-        Ciao, sono Martina, sono originaria di Ischia e vivo in Sicilia. Mi
-        piacciono i libri e in questo blog parlo del cazzo che voglio
+        Hi, I'm Martina, I'm from Ischia and I live in Sicily. I love books and
+        in this blog, I talk about the ones I loved the most.
       </p>
       <h2 className={AsideStyles.title}>A little bit of me</h2>
       <div className={AsideStyles.images}>
         <Image
-          src="img/grid/IMG_2323.JPG"
-          alt="family"
+          src="img/grid/clay-banks-GX8KBbVmC6c-unsplash.jpg"
+          alt="grid1"
           className={AsideStyles.img}
         />
         <Image
-          src="img/grid/IMG_2324.JPG"
-          alt="family4"
+          src="img/grid/adriana-velasquez-J9yPpjKY8zc-unsplash.jpg"
+          alt="grid2"
           className={AsideStyles.img}
         />
         <Image
-          src="img/grid/IMG_2322.JPG"
-          alt="family3"
+          src="img/grid/florencia-viadana-xgIaBmsiWI0-unsplash.jpg"
+          alt="grid3"
           className={AsideStyles.img}
         />
         <Image
-          src="img/grid/IMG_2325.JPG"
-          alt="family2"
+          src="img/grid/katya-austin-uesPVQY0TkA-unsplash.jpg"
+          alt="grid4"
           className={AsideStyles.img}
         />
         <Image
-          src="img/grid/IMG_2321.JPG"
-          alt="snooky"
+          src="img/grid/thought-catalog-Pnvmg65W9tQ-unsplash.jpg"
+          alt="grid5"
           className={AsideStyles.img}
         />
         <Image
-          src="img/grid/IMG_2320.JPG"
-          alt="ciro"
+          src="img/grid/timothy-buck-psrloDbaZc8-unsplash.jpg"
+          alt="grid6"
           className={AsideStyles.img}
         />
       </div>
@@ -55,6 +55,11 @@ const Aside = () => {
           <li>
             <a href="#" className={AsideStyles.instagram}>
               <i className="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" className={AsideStyles.twitter}>
+              <i className="fab fa-twitter"></i>
             </a>
           </li>
         </ul>

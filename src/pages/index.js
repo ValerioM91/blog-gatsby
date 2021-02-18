@@ -52,7 +52,6 @@ const IndexPage = () => {
           </li>
         ))}
       </ol>
-      {/* <Link to="/contact">Contact me</Link> */}
     </Layout>
   );
 };

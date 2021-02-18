@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Martina's Books",
-    author: "Martina Mattera",
+    author: "Valerio Mattera",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
