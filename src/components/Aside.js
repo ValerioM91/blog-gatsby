@@ -1,6 +1,5 @@
 import React from "react";
 import AsideStyles from "./Aside.module.scss";
-// import Img from "./Img";
 import Image from "./Images";
 
 const Aside = () => {

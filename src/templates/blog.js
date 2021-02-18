@@ -50,7 +50,6 @@ const Blog = props => {
       },
     },
   };
-  // console.log(JSON.parse(props.data.contentfulBlogPost.body.raw));
 
   const rawBlogPostObject = JSON.parse(raw);
 
